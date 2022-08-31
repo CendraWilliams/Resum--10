@@ -1,0 +1,149 @@
+
+.body {
+    background-color: lightcoral;
+    color: gray;
+    font-family: Roboto, sans-serif, Ariel;  
+    scroll-behavior: smooth;   
+    width: 100%;
+    margin: 0;  
+}
+
+.about {
+    font-size: larger;
+}
+    
+footer {
+    text-align: center;
+    background-color: lightblue;
+    color: black;    
+}
+
+.animation:hover {
+    filter: opacity(50%); 
+}
+
+.button-colour {
+    background-color:lightskyblue;
+    border: 0;
+}
+.link-colour {
+    color:black;
+}
+.button-colour:hover {
+    background-color: #dccca3;
+}
+
+.link-colour:hover {
+    color: #4a2545;
+    font-weight: bolder;
+}
+
+#about-section {
+    clear: both;
+    display: block;
+}
+
+#background {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtWTBoUYah9QgLeA8RM6aWLrM9dskmkGzA9A&usqp=CAU); 
+    background-color: lightslategray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+
+.heading {
+    font-weight: bold;
+    font-family: fantasy;
+    color: black;
+}
+
+.line {
+    border: 2px dotted;
+    border-color: gray;
+}
+
+.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+ .bg-colour {
+     background-color: lightblue;
+ } 
+
+ .purple {
+    background-color: #4a2545;
+ }
+
+ .space {
+     display: flex;
+     width: 100%;
+ }
+
+ /* .collapse-black {
+    color: #000 !important;
+} */
+
+@keyframes LogoAnimation {
+   0% {transform: translateY(0);}
+   50% {transform: translateY(-10px);}
+   100% {transform: translateY(0);}
+}
+
+
+.bounce:hover {
+    animation-name: LogoAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;  
+}
+
+ @media screen and (max-width: 768px) {
+    #background {
+        background-image: url("images/christine-website-mobile.jpg");
+        background-color: #4a2545;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #background {
+    background-image: url("images/christine-website-mobile.jpg"); 
+    background-color: #4a2545;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-pic {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        float: none;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-colour {
+        color: black;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .slider-mobile {
+        width: 100% !important;
+    }
+}

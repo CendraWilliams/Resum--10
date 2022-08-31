@@ -1,0 +1,241 @@
+
+.body {
+  background-color: lightcoral;
+  color: gray;
+  font-family: Roboto, sans-serif, Ariel;  
+  scroll-behavior: smooth;   
+  width: 100%;
+  margin: 0;  
+}
+
+.about {
+  font-size: larger;
+}
+  
+footer {
+  text-align: center;
+  background-color: lightblue;
+  color: black;    
+}
+
+.animation:hover {
+  filter: opacity(50%); 
+}
+
+.button-colour {
+  background-color:lightskyblue;
+  border: 0;
+}
+.link-colour {
+  color:black;
+}
+.button-colour:hover {
+  background-color: #dccca3;
+}
+
+.link-colour:hover {
+  color: #4a2545;
+  font-weight: bolder;
+}
+
+#about-section {
+  clear: both;
+  display: block;
+}
+
+#background {
+  background-image:url(https://thumbs.dreamstime.com/b/tropical-beach-scene-6049577.jpg); 
+  background-color: lightslategray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+}
+
+.heading {
+  font-weight: bold;
+  font-family: fantasy;
+  color: black;
+}
+
+.line {
+  border: 2px dotted;
+  border-color: gray;
+}
+
+.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+  }
+.bg-colour {
+   background-color: lightblue;
+} 
+
+.purple {
+  background-color: #4a2545;
+}
+
+.space {
+   display: flex;
+   width: 100%;
+}
+
+/* .collapse-black {
+  color: #000 !important;
+} */
+
+@keyframes LogoAnimation {
+ 0% {transform: translateY(0);}
+ 50% {transform: translateY(-10px);}
+ 100% {transform: translateY(0);}
+}
+
+
+.bounce:hover {
+  animation-name: LogoAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: initial;
+  animation-timing-function: ease-out;
+  animation-direction: reverse;  
+}
+
+@media screen and (max-width: 768px) {
+  #background {
+      background-image: url("images/christine-website-mobile.jpg");
+      background-color: #4a2545;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #background {
+  background-image: url("images/christine-website-mobile.jpg"); 
+  background-color: #4a2545;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-pic {
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      float: none;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav-colour {
+      color: black;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .slider-mobile {
+      width: 100% !important;
+  }
+}
+
+
+
+
+body{
+    font-family: sans-serif;
+    font-size:110%;
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+    background: palevioletred; background-image:url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2022%2F03%2F08%2FSunflower-Oil-From-Ukraine-FT-BLOG0322.jpg&q=60)
+  
+  
+  }
+  
+  header {
+    text-align: center;
+    justify-content: center;
+  }
+  #heading{
+    font-family:cursive;
+    font: size 110%;;
+    background-color: lightslategray;
+    color:white;
+  }
+  #CendraPalmerPhoto{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border: 5px solid lightskyblue
+  }
+  
+  .nav-menu{
+    list-style-type: none;
+    padding: 0%;
+  
+  
+  
+  }
+  body {
+    padding-bottom: 20px;
+  }
+  
+  #navbar {
+    margin-bottom: 20px;
+    font-size: 85%;
+    background-color:lightblue;
+    color: black;
+    font-family: cursive;
+    width: 10%;
+    padding: 1rem;
+
+  }
+  
+  footer {
+    background-color:lightslategray;
+    text-align: center;
+    font-size: 100%;
+    color: #FCF7F8;
+  }
+    .icons{
+      width: 2rem;
+      margin: 0rem;
+      padding: 0%;
+    }
+    .icons {
+      animation-duration: 10s;
+      animation-name: slidein;
+      animation-iteration-count: 2;
+      animation-direction: alternate;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-left:50%;
+        width: 30px;
+      }
+    
+      to {
+        margin-left:0%;
+        width: 30px;
+      } 
+  
+  
+    }
