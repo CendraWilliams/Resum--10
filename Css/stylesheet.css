@@ -44,7 +44,7 @@ footer {
 }
 
 #background {
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtWTBoUYah9QgLeA8RM6aWLrM9dskmkGzA9A&usqp=CAU); 
+    background-image:url(); 
     background-color: lightslategray;
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ footer {
  } 
 
  .purple {
-    background-color: #4a2545;
+    background-color: lightslategray;
  }
 
  .space {
@@ -104,8 +104,8 @@ footer {
 
  @media screen and (max-width: 768px) {
     #background {
-        background-image: url("images/christine-website-mobile.jpg");
-        background-color: #4a2545;
+        background-image: url();
+        background-color: lightskyblue;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -115,8 +115,8 @@ footer {
 
 @media screen and (max-width: 550px) {
     #background {
-    background-image: url("images/christine-website-mobile.jpg"); 
-    background-color: #4a2545;
+    background-image: url(); 
+    background-color: lightslategray;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
