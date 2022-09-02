@@ -1,11 +1,10 @@
-
 .body {
     background-color: lightslategray;
-    color:lightcyan;
-    font-family: cursive;  
-    scroll-behavior: smooth;   
+    color: lightcyan;
+    font-family: cursive;
+    scroll-behavior: smooth;
     width: 100%;
-    margin: 0;  
+    margin: 0;
 }
 
 .about {
@@ -13,26 +12,28 @@
 
 }
 
-    
+
 footer {
     text-align: center;
     background-color: lightblue;
-    color: black;    
+    color: black;
 }
 
 .animation:hover {
-    filter: opacity(50%); 
+    filter: opacity(50%);
 }
 
 .button-colour {
-    background-color:grey;
+    background-color: grey;
     border: 0;
 }
+
 .link-colour {
-    color:black;
+    color: black;
 }
+
 .button-colour:hover {
-    background-color:skyblue;
+    background-color: skyblue;
 }
 
 .link-colour:hover {
@@ -47,7 +48,7 @@ footer {
 }
 
 #background {
-    background-image:url(https://media.istockphoto.com/photos/aerial-view-of-clear-turquoise-sea-picture-id956431518?k=20&m=956431518&s=612x612&w=0&h=ASK1CrFBQcwUImpaMZ4kaHZFjD8ZIyWMrb5XINHDdPY=); 
+    background-image: url(https://media.istockphoto.com/photos/aerial-view-of-clear-turquoise-sea-picture-id956431518?k=20&m=956431518&s=612x612&w=0&h=ASK1CrFBQcwUImpaMZ4kaHZFjD8ZIyWMrb5XINHDdPY=);
     background-color: lightslategray;
     background-size: cover;
     background-repeat: no-repeat;
@@ -69,50 +70,78 @@ footer {
 }
 
 .navbar-center {
-        position: absolute;
-        left: 50%;
-        transform: translatex(-50%);
-    }
- .bg-colour {
-     background-color: lightblue;
- } 
-  .carousel-caption {
-        width: 40%;
-        top: 40%;
-        text-align:left;
-    }
-    
-    .carousel-caption h5{
-        font-weight:bold ;
-        font: 50px;;
-        text-align:below;
-        color:skyblue;
-        font-family: cursive;
-        font-style: italic;
-    }
-    
-    .carousel-caption p{
-        font-size: 18px;
-        text-align:below;
-        color: skyblue;
-        font-family: cursive;
-        font-style: italic;
-    }
-   
- .space {
-     display: flex;
-     width: 100%;
- }
- 
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
 
- /* .collapse-black {
+.bg-colour {
+    background-color: lightblue;
+}
+
+#carouselExampleDark {
+    height: 30em !important;
+}
+
+.carousel-item img {
+    height: 20em !important;
+    width: 20em !important;
+    margin-left: 4em !important;
+}
+
+.carousel-caption {
+    width: 40%;
+    top: 40%;
+    position: static !important;
+}
+
+.carousel-caption p, .carousel-caption h5 {
+    margin-left: -0.7em !important;
+    margin-right: 6em !important;
+
+}
+
+.carousel-item {
+    margin-left: 35%;
+
+}
+
+.carousel-caption h5 {
+    font-weight: bold !important;
+    font: 50px !important;
+    /*text-align: below;*/
+    color: skyblue !important;
+    font-family: cursive !important;
+    font-style: italic !important;
+}
+
+.carousel-caption p {
+    font-size: 18px !important;
+    text-align: below !important;
+    color: skyblue !important;
+    font-family: cursive !important;
+    font-style: italic !important;
+}
+
+
+
+ .collapse-black {
     color: #000 !important;
-} */
+} 
+
 
 @keyframes LogoAnimation {
-   0% {transform: translateY(0);}
-   50% {transform: translateY(-10px);}
-   100% {transform: translateY(0);}
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 
@@ -121,10 +150,10 @@ footer {
     animation-duration: 10s;
     animation-iteration-count: initial;
     animation-timing-function: ease-out;
-    animation-direction: reverse;  
+    animation-direction: reverse;
 }
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #background {
         background-image: url(https://media.istockphoto.com/photos/aerial-view-of-clear-turquoise-sea-picture-id956431518?k=20&m=956431518&s=612x612&w=0&h=ASK1CrFBQcwUImpaMZ4kaHZFjD8ZIyWMrb5XINHDdPY=);
         background-color: lightskyblue;
@@ -137,12 +166,12 @@ footer {
 
 @media screen and (max-width: 550px) {
     #background {
-    background-image: url(https://media.istockphoto.com/vectors/wonderful-morning-in-the-blue-mountains-vector-id476098860?k=20&m=476098860&s=612x612&w=0&h=It1CiYxQDGlhdrYDXT-4gDwZWwrXjoVwhBe3qVGVZlk=); 
-    background-color: lightslategray;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 100%;
+        background-image: url(https://media.istockphoto.com/vectors/wonderful-morning-in-the-blue-mountains-vector-id476098860?k=20&m=476098860&s=612x612&w=0&h=It1CiYxQDGlhdrYDXT-4gDwZWwrXjoVwhBe3qVGVZlk=);
+        background-color: lightslategray;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
     }
 }
 
@@ -169,3 +198,5 @@ footer {
         width: 100% !important;
     }
 }
+
+
